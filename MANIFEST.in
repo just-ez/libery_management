@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include libery_management *.css
+recursive-include libery_management *.csv
+recursive-include libery_management *.html
+recursive-include libery_management *.ico
+recursive-include libery_management *.js
+recursive-include libery_management *.json
+recursive-include libery_management *.md
+recursive-include libery_management *.png
+recursive-include libery_management *.py
+recursive-include libery_management *.svg
+recursive-include libery_management *.txt
+recursive-exclude libery_management *.pyc
